@@ -2,25 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a819dd89-146a-48f0-82ac-a3c19897419e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/ly/feign/FeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/ly/feign/controller/ConsumeFeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/ly/feign/service/ConsumeFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/test/java/com/ly/feign/FeignApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/src/main/java/com/ly/feign/FeignWebFluxApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/src/main/java/com/ly/feign/controller/ConsumeFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/src/main/java/com/ly/feign/service/ConsumeFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_webflux/src/test/java/com/ly/feign/FeignApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/ly/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/ly/consumer/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/ly/consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/ly/consumer/controller/ConsumerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +75,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/feign/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39419404" />
@@ -87,8 +83,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\springbootCourse\alibabaCloud\feign\src\main\resources" />
       <recent name="C:\projects\springbootCourse\alibabaCloud" />
+      <recent name="C:\projects\springbootCourse\alibabaCloud\feign\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -98,7 +94,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FeignApplication">
+  <component name="RunManager" selected="Spring Boot.FeignWebFluxApplication">
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ly.consumer.ConsumerApplication" />
@@ -113,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FeignWebFluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="feign_webflux" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ly.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ly.feign.FeignWebFluxApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ly.provider.ProviderApplication" />
@@ -120,6 +129,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.FeignWebFluxApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -171,46 +185,46 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="392" y="95" key="#Project_Structure/62.0.1474.864@62.0.1474.864" timestamp="1585016003593" />
-    <state x="545" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585016195182">
+    <state x="545" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585019776137">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="545" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.1474.864@62.0.1474.864" timestamp="1585016195182" />
+    <state x="545" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.1474.864@62.0.1474.864" timestamp="1585019776137" />
     <state x="608" y="145" key="FileChooserDialogImpl" timestamp="1585016261866">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="608" y="145" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1585016261866" />
-    <state width="1059" height="482" key="GridCell.Tab.0.bottom" timestamp="1585018923567">
+    <state width="1059" height="505" key="GridCell.Tab.0.bottom" timestamp="1585020156625">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1059" height="482" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1585018923567" />
-    <state width="1059" height="482" key="GridCell.Tab.0.center" timestamp="1585018923567">
+    <state width="1059" height="505" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1585020156625" />
+    <state width="1059" height="505" key="GridCell.Tab.0.center" timestamp="1585020156625">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1059" height="482" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1585018923567" />
-    <state width="1059" height="482" key="GridCell.Tab.0.left" timestamp="1585018923567">
+    <state width="1059" height="505" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1585020156625" />
+    <state width="1059" height="505" key="GridCell.Tab.0.left" timestamp="1585020156625">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1059" height="482" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1585018923567" />
-    <state width="1059" height="482" key="GridCell.Tab.0.right" timestamp="1585018923567">
+    <state width="1059" height="505" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1585020156625" />
+    <state width="1059" height="505" key="GridCell.Tab.0.right" timestamp="1585020156625">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1059" height="482" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1585018923567" />
-    <state width="1059" height="482" key="GridCell.Tab.1.bottom" timestamp="1585018923571">
+    <state width="1059" height="505" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1585020156625" />
+    <state width="1059" height="505" key="GridCell.Tab.1.bottom" timestamp="1585020156625">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1059" height="482" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1585018923571" />
-    <state width="1059" height="482" key="GridCell.Tab.1.center" timestamp="1585018923570">
+    <state width="1059" height="505" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1585020156625" />
+    <state width="1059" height="505" key="GridCell.Tab.1.center" timestamp="1585020156625">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1059" height="482" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1585018923570" />
-    <state width="1059" height="482" key="GridCell.Tab.1.left" timestamp="1585018923569">
+    <state width="1059" height="505" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1585020156625" />
+    <state width="1059" height="505" key="GridCell.Tab.1.left" timestamp="1585020156625">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1059" height="482" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1585018923569" />
-    <state width="1059" height="482" key="GridCell.Tab.1.right" timestamp="1585018923571">
+    <state width="1059" height="505" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1585020156625" />
+    <state width="1059" height="505" key="GridCell.Tab.1.right" timestamp="1585020156625">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1059" height="482" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1585018923571" />
+    <state width="1059" height="505" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1585020156625" />
     <state x="330" y="92" key="Maven.ArtifactSearchDialog" timestamp="1585016367627">
       <screen x="62" y="0" width="1474" height="864" />
     </state>

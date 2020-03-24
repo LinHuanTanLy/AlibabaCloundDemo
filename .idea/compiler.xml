@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="consumer" />
         <module name="consumer_feign" />
+        <module name="feign_webflux" />
         <module name="provider" />
         <module name="feign" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="consumer (1)" options="-parameters" />
       <module name="consumer_feign" options="-parameters" />
       <module name="feign" options="-parameters" />
+      <module name="feign_webflux" options="-parameters" />
       <module name="provider" options="-parameters" />
     </option>
   </component>

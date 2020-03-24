@@ -13,5 +13,6 @@
         <module>provider</module>
         <module>consumer</module>
         <module>feign</module>
+        <module>feign_webflux</module>
     </modules>
 </project>
